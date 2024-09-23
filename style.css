@@ -46,4 +46,7 @@
     color: blue;
     text-align: right;
     padding: 5px;
+    overflow: hidden; /* Esconde o texto que ultrapassa a largura */
+    text-overflow: ellipsis; /* Adiciona "..." ao final do texto que ultrapassa a largura */
+    white-space: nowrap; /* Impede a quebra de linha */
 }
